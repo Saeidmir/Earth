@@ -8,9 +8,14 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Earth.Core.Contracts\Earth.Core.Contracts.csproj" />
+      <ProjectReference Include="..\Earth.Core.Domain.Toolkits\Earth.Core.Domain.Toolkits.csproj" />
       <ProjectReference Include="..\Earth.Core.Domain\Earth.Core.Domain.csproj" />
       <ProjectReference Include="..\Earth.Infra.Data.Sql\Earth.Infra.Data.Sql.csproj" />
       <ProjectReference Include="..\Earth.Utilities\Earth.Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
     </ItemGroup>
 
 </Project>

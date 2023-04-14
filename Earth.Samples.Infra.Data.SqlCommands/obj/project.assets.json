@@ -825,6 +825,19 @@
           "bin/placeholder/Earth.Core.Domain.dll": {}
         }
       },
+      "Earth.Core.Domain.Toolkits/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Earth.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Earth.Core.Domain.Toolkits.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Earth.Core.Domain.Toolkits.dll": {}
+        }
+      },
       "Earth.Infra.Data.Sql/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -844,8 +857,10 @@
         "dependencies": {
           "Earth.Core.Contracts": "1.0.0",
           "Earth.Core.Domain": "1.0.0",
+          "Earth.Core.Domain.Toolkits": "1.0.0",
           "Earth.Infra.Data.Sql": "1.0.0",
-          "Earth.Utilities": "1.0.0"
+          "Earth.Utilities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Infra.Data.Sql.Commands.dll": {}
@@ -2160,6 +2175,11 @@
       "type": "project",
       "path": "../Earth.Core.Domain/Earth.Core.Domain.csproj",
       "msbuildProject": "../Earth.Core.Domain/Earth.Core.Domain.csproj"
+    },
+    "Earth.Core.Domain.Toolkits/1.0.0": {
+      "type": "project",
+      "path": "../Earth.Core.Domain.Toolkits/Earth.Core.Domain.Toolkits.csproj",
+      "msbuildProject": "../Earth.Core.Domain.Toolkits/Earth.Core.Domain.Toolkits.csproj"
     },
     "Earth.Infra.Data.Sql/1.0.0": {
       "type": "project",
