@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Earth.Core.Domain\Earth.Core.Domain.csproj" />
+      <ProjectReference Include="..\Earth.Utilities\Earth.Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ApplicationService\" />
+      <Folder Include="Data\" />
+    </ItemGroup>
+
+</Project>

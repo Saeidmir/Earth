@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Earth.Core.ApplicationServices\Earth.Core.ApplicationServices.csproj" />
+      <ProjectReference Include="..\Earth.Core.Contracts\Earth.Core.Contracts.csproj" />
+      <ProjectReference Include="..\Earth.Core.Domain\Earth.Core.Domain.csproj" />
+      <ProjectReference Include="..\Earth.Infra.Data.Sql.Commands\Earth.Infra.Data.Sql.Commands.csproj" />
+      <ProjectReference Include="..\Earth.Infra.Data.Sql.Queries\Earth.Infra.Data.Sql.Queries.csproj" />
+      <ProjectReference Include="..\Earth.Infra.Data.Sql\Earth.Infra.Data.Sql.csproj" />
+      <ProjectReference Include="..\Earth.Utilities\Earth.Utilities.csproj" />
+    </ItemGroup>
+
+</Project>

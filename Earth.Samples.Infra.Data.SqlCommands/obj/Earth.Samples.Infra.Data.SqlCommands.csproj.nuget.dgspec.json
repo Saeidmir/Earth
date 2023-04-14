@@ -1,0 +1,572 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlCommands\\Earth.Samples.Infra.Data.SqlCommands.csproj": {}
+  },
+  "projects": {
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj",
+        "projectName": "Earth.Core.Contracts",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj",
+        "projectName": "Earth.Core.Domain",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\Earth.Infra.Data.Sql.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\Earth.Infra.Data.Sql.Commands.csproj",
+        "projectName": "Earth.Infra.Data.Sql.Commands",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\Earth.Infra.Data.Sql.Commands.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\Earth.Infra.Data.Sql.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\Earth.Infra.Data.Sql.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\Earth.Infra.Data.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\Earth.Infra.Data.Sql.csproj",
+        "projectName": "Earth.Infra.Data.Sql",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\Earth.Infra.Data.Sql.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj",
+        "projectName": "Earth.Samples.Core.Contracts",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj",
+        "projectName": "Earth.Samples.Core.Domain",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlCommands\\Earth.Samples.Infra.Data.SqlCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlCommands\\Earth.Samples.Infra.Data.SqlCommands.csproj",
+        "projectName": "Earth.Samples.Infra.Data.SqlCommands",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlCommands\\Earth.Samples.Infra.Data.SqlCommands.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\Earth.Infra.Data.Sql.Commands.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Commands\\Earth.Infra.Data.Sql.Commands.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj"
+              },
+              "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj": {
+                "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Domain\\Earth.Samples.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj",
+        "projectName": "Earth.Utilities",
+        "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\Earth.Utilities.csproj",
+        "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Zamin.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.1, )"
+            },
+            "Zamin.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.1, )"
+            },
+            "Zamin.Extensions.Logger.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.1, )"
+            },
+            "Zamin.Extensions.ObjectMappers.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.1, )"
+            },
+            "Zamin.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.1, )"
+            },
+            "Zamin.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.3, )"
+            },
+            "Zamin.Extensions.UsersManagement.Abstractions": {
+              "target": "Package",
+              "version": "[6.3.0-beta.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

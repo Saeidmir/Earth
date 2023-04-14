@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Earth.Core.ApplicationServices\Earth.Core.ApplicationServices.csproj" />
+      <ProjectReference Include="..\Earth.Samples.Core.Contracts\Earth.Samples.Core.Contracts.csproj" />
+      <ProjectReference Include="..\Earth.Samples.Core.Domain\Earth.Samples.Core.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.5.2" />
+    </ItemGroup>
+
+</Project>
