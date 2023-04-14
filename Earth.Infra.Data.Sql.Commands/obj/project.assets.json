@@ -825,6 +825,19 @@
           "bin/placeholder/Earth.Core.Domain.dll": {}
         }
       },
+      "Earth.Core.Domain.Toolkits/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Earth.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Earth.Core.Domain.Toolkits.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Earth.Core.Domain.Toolkits.dll": {}
+        }
+      },
       "Earth.Infra.Data.Sql/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2117,6 +2130,11 @@
       "path": "../Earth.Core.Domain/Earth.Core.Domain.csproj",
       "msbuildProject": "../Earth.Core.Domain/Earth.Core.Domain.csproj"
     },
+    "Earth.Core.Domain.Toolkits/1.0.0": {
+      "type": "project",
+      "path": "../Earth.Core.Domain.Toolkits/Earth.Core.Domain.Toolkits.csproj",
+      "msbuildProject": "../Earth.Core.Domain.Toolkits/Earth.Core.Domain.Toolkits.csproj"
+    },
     "Earth.Infra.Data.Sql/1.0.0": {
       "type": "project",
       "path": "../Earth.Infra.Data.Sql/Earth.Infra.Data.Sql.csproj",
@@ -2132,8 +2150,10 @@
     "net6.0": [
       "Earth.Core.Contracts >= 1.0.0",
       "Earth.Core.Domain >= 1.0.0",
+      "Earth.Core.Domain.Toolkits >= 1.0.0",
       "Earth.Infra.Data.Sql >= 1.0.0",
-      "Earth.Utilities >= 1.0.0"
+      "Earth.Utilities >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5"
     ]
   },
   "packageFolders": {
@@ -2171,6 +2191,9 @@
             "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj": {
               "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Contracts\\Earth.Core.Contracts.csproj"
             },
+            "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain.Toolkits\\Earth.Core.Domain.Toolkits.csproj": {
+              "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain.Toolkits\\Earth.Core.Domain.Toolkits.csproj"
+            },
             "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj": {
               "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.Domain\\Earth.Core.Domain.csproj"
             },
@@ -2192,6 +2215,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
