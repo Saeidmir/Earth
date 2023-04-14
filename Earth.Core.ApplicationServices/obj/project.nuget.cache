@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "N70luXicECV99iIASppeagO4ip/QHqqtc3IfYVTkxhZyp7760z3iVzkO8iSXdPM+PIdQLjYKJdlo2hRsyq+ABA==",
+  "success": true,
+  "projectFilePath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Core.ApplicationServices\\Earth.Core.ApplicationServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saeid\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.caching.abstractions\\6.3.0-beta.1\\zamin.extensions.caching.abstractions.6.3.0-beta.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.dependencyinjection.abstractions\\6.3.0-beta.1\\zamin.extensions.dependencyinjection.abstractions.6.3.0-beta.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.logger.abstractions\\6.3.0-beta.1\\zamin.extensions.logger.abstractions.6.3.0-beta.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.objectmappers.abstractions\\6.3.0-beta.1\\zamin.extensions.objectmappers.abstractions.6.3.0-beta.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.serializers.abstractions\\6.3.0-beta.1\\zamin.extensions.serializers.abstractions.6.3.0-beta.1.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.translations.abstractions\\6.3.0-beta.3\\zamin.extensions.translations.abstractions.6.3.0-beta.3.nupkg.sha512",
+    "C:\\Users\\saeid\\.nuget\\packages\\zamin.extensions.usersmanagement.abstractions\\6.3.0-beta.2\\zamin.extensions.usersmanagement.abstractions.6.3.0-beta.2.nupkg.sha512"
+  ],
+  "logs": []
+}
