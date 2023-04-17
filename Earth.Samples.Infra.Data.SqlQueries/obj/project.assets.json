@@ -181,6 +181,24 @@
           }
         }
       },
+      "Microsoft.Extensions.Caching.SqlServer/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "1.0.19249.1",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -803,7 +821,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Earth.Core.Domain": "1.0.0",
-          "Earth.Utilities": "1.0.0"
+          "Earth.Utilities": "1.0.0",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Core.Contracts.dll": {}
@@ -816,7 +835,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Earth.Utilities": "1.0.0"
+          "Earth.Utilities": "1.0.0",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Core.Domain.dll": {}
@@ -829,7 +849,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Infra.Data.Sql.dll": {}
@@ -844,7 +865,8 @@
         "dependencies": {
           "Earth.Core.Contracts": "1.0.0",
           "Earth.Infra.Data.Sql": "1.0.0",
-          "Earth.Utilities": "1.0.0"
+          "Earth.Utilities": "1.0.0",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Infra.Data.Sql.Queries.dll": {}
@@ -858,7 +880,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Earth.Core.Contracts": "1.0.0",
-          "Earth.Samples.Core.Domain": "1.0.0"
+          "Earth.Samples.Core.Domain": "1.0.0",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Samples.Core.Contracts.dll": {}
@@ -872,7 +895,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Earth.Core.Domain": "1.0.0",
-          "Earth.Utilities": "1.0.0"
+          "Earth.Utilities": "1.0.0",
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5"
         },
         "compile": {
           "bin/placeholder/Earth.Samples.Core.Domain.dll": {}
@@ -885,6 +909,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.Extensions.Caching.SqlServer": "6.0.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Zamin.Extensions.Caching.Abstractions": "6.3.0-beta.1",
@@ -1166,6 +1191,25 @@
         "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Caching.SqlServer/6.0.5": {
+      "sha512": "udXVml/o3+N+qB+8rrUQVLV6QuGvX7ZUCZWyr4JMVkuEPFQgfdRm21EIVEQ6SaUTKfQz+U6TBSdRyF+rxogDVg==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.sqlserver/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/net461/Microsoft.Extensions.Caching.SqlServer.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.SqlServer.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.xml",
+        "microsoft.extensions.caching.sqlserver.6.0.5.nupkg.sha512",
+        "microsoft.extensions.caching.sqlserver.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
@@ -2189,28 +2233,24 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Earth.Infra.Data.Sql.Queries >= 1.0.0",
-      "Earth.Samples.Core.Contracts >= 1.0.0"
+      "Earth.Samples.Core.Contracts >= 1.0.0",
+      "Microsoft.Extensions.Caching.SqlServer >= 6.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saeid\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HamrahTel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\Earth.Samples.Infra.Data.SqlQueries.csproj",
+      "projectUniqueName": "C:\\testProjects\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\Earth.Samples.Infra.Data.SqlQueries.csproj",
       "projectName": "Earth.Samples.Infra.Data.SqlQueries",
-      "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\Earth.Samples.Infra.Data.SqlQueries.csproj",
-      "packagesPath": "C:\\Users\\saeid\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\obj\\",
+      "projectPath": "C:\\testProjects\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\Earth.Samples.Infra.Data.SqlQueries.csproj",
+      "packagesPath": "C:\\Users\\HamrahTel\\.nuget\\packages\\",
+      "outputPath": "C:\\testProjects\\Earth\\Earth.Samples.Infra.Data.SqlQueries\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\saeid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HamrahTel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2218,17 +2258,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.iranrepo.ir": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Queries\\Earth.Infra.Data.Sql.Queries.csproj": {
-              "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Infra.Data.Sql.Queries\\Earth.Infra.Data.Sql.Queries.csproj"
+            "C:\\testProjects\\Earth\\Earth.Infra.Data.Sql.Queries\\Earth.Infra.Data.Sql.Queries.csproj": {
+              "projectPath": "C:\\testProjects\\Earth\\Earth.Infra.Data.Sql.Queries\\Earth.Infra.Data.Sql.Queries.csproj"
             },
-            "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj": {
-              "projectPath": "D:\\Codes\\NetCore\\Arch\\Earth\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj"
+            "C:\\testProjects\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj": {
+              "projectPath": "C:\\testProjects\\Earth\\Earth.Samples.Core.Contracts\\Earth.Samples.Core.Contracts.csproj"
             }
           }
         }
@@ -2242,6 +2283,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -2258,7 +2305,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }

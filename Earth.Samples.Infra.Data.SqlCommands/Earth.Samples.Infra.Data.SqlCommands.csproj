@@ -12,4 +12,8 @@
       <ProjectReference Include="..\Earth.Samples.Core.Domain\Earth.Samples.Core.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="6.0.5" />
+    </ItemGroup>
+
 </Project>

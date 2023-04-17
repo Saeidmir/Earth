@@ -15,7 +15,7 @@ public static class LinqExtensions
         var mce = Expression.Call(typeof(Queryable), method, types, q.Expression, exp);
         return q.Provider.CreateQuery<T>(mce);
     }
-
+    
     public static DataTable ToDataTable<T>(this List<T> list)
     {
 
@@ -29,6 +29,8 @@ public static class LinqExtensions
         }
 
         foreach (T item in list)
+            
+            
         {
             var values = new object[Props.Length];
             for (int i = 0; i < Props.Length; i++)
