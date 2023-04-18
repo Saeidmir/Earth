@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DkfUt5iZnTR8MGm4nLDwf6NQjXFQruHn9GsrHt1W8xYnXIIvuc+ViUA26tNnvjzq24TtbWpDMUuGZ5WJKZWyCQ==",
+  "dgSpecHash": "uyUMGPiwYTXLqRI04WwnW87MHadB388tOHT4m+O+3O4f4tUzxXt7ew7EI1hmVyFsjAw2VYCxJN4nLoJTGmDKpQ==",
   "success": true,
   "projectFilePath": "C:\\testProjects\\Earth\\Earth.Caching.Distributed.InMemory\\Earth.Caching.Distributed.InMemory.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,11 @@
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.caching.sqlserver\\6.0.5\\microsoft.extensions.caching.sqlserver.6.0.5.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\HamrahTel\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
